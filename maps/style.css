@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+body
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url('map.jpeg');
+}
+h1
+{
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+}
+#menu {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  top:auto;
+  width: 200px;
+  margin-top: -2.5em;
+  background-color: #1ba1e2;
+  padding-top: 50px;
+  color: white;
+}
+#origin
+{
+	width: 150px;
+}
+#destination
+{
+	width: 150px;
+}
+#menu li
+{
+	list-style-type: none;
+}
+#menu a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#container #full_screen_part
+{
+	width:800px;
+	height:600px;
+	margin:auto;
+	box-shadow: 1px 1px 12px #555;
+
+}
+
+#container
+{
+	position:relative;
+	width:800px;
+	margin:auto;
+
+	padding:20px 0px 20px 0px;
+}
+
+#container #panel
+{
+	background-color: #FFFFFF;
+
+}
+
+.adp
+{
+	background-color: #FFFFFF;
+}
+
+.adp-legal
+{
+	color: #FFFFFF;
+}
+
+#container #back
+{
+	background:#000000;
+}
+
+#container #destinationForm
+{
+	width: 150px;
+	height: 115px;
+	position:relative;
+	color: #FFFFFF;
+	margin:auto;
+	padding:10px 20px;
+}
+
+#container #destinationForm input[type=button]
+{
+	display: block;
+	width: 50px;
+	position:relative;
+	margin:auto;
+}
+
+#container #full_screen_part:-moz-full-screen {
+    width: 100%;
+    height: 100%;
+}
+#container #full_screen_part:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+#container #full_screen_part:fullscreen {
+    width: 100%;
+    height: 100%;
+}
+
+
+button
+{
+	margin-left: 95px;
+	background-color: #1ba1e2;
+	border:none;
+	padding: 10px;
+	margin-bottom: 20px; 
+}
+
+.gm-style
+{
+box-shadow: 1px 1px 12px #555;
+}

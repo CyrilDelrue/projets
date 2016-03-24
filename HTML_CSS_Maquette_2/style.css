@@ -1,0 +1,433 @@
+/*POLICES*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+html
+{
+	font-family: 'Droid Sans','Oswald', sans-serif;
+}
+header
+{
+	background-image: url(maquette_2/misc/grille.png);
+	margin-top: -10px;
+	padding: 40px;
+	font-size: 12px;
+}
+header ul
+{
+	display: inline-block;
+
+}
+header li
+{
+	list-style-type: none;
+}
+header a
+{
+	text-decoration: none;
+	color: grey;
+
+}
+header img
+{
+	padding-right: 100px;
+}
+header a:hover
+{
+	color: black;
+}
+.sans_gras
+{
+	font-size: 10px;
+}
+nav
+{
+	margin-left: 25%;
+	margin-bottom: -20px;
+	margin-top: -10px;
+}
+#conteneur
+{
+	width: 100%;
+}
+#border_bottom
+{
+	border-bottom: 2px solid #F9F9F9;
+	padding-bottom: 10px;
+}
+#color_orange
+{
+	border-bottom: 5px solid #F76900;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+#orange li:hover
+{
+	background-color: #F76900;
+}
+#color_yellow
+{
+	border-bottom: 5px solid #FCD04A;
+	padding-right: 25px;
+	padding-bottom: 5px;
+}
+#yellow li:hover
+{
+	background-color: #FCD04A;
+}
+#color_green
+{
+	border-bottom: 5px solid #B9D482;
+	padding-right: 25px;
+	padding-bottom: 5px;
+}
+#green li:hover
+{
+	background-color: #B9D482;
+}
+#color_blue
+{
+	border-bottom: 5px solid #3D92C2;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+#blue li:hover
+{
+	background-color: #3D92C2;
+}
+#color_violet
+{
+	border-bottom: 5px solid #C078D0;
+	margin-right: 20px;
+	padding-bottom: 5px;
+}
+#violet li:hover
+{
+	background-color: #C078D0;
+}
+#movie
+{
+	position: relative;
+	width: 625px;
+	padding: 0px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+iframe
+{
+	width: 600px;
+	height: 335px;
+	border: 0px;
+}
+#message
+{
+	background-image: url(maquette_2/misc/grille.png);
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	color: #867F84;
+}
+#border_message
+{
+	border-top: 2px solid #F9F9F9;
+	padding-top: 10px;
+	border-bottom: 2px solid #F9F9F9;
+	padding-bottom: 10px; 
+}
+#activity
+{
+	/*border: black 1px solid;*/
+	width: 480px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 25%;
+}
+#golf
+{
+	border: 1px #D7D4D4 solid;
+	width: 200px;
+	font-size: 13px;
+	padding: 10px;
+	height: 400px;
+	float: left;
+	margin-left: -80px;
+}
+.police_golf
+{
+	font-style: italic;
+	font-family: 'Droid Serif', serif;
+	color: #BBC2C5;
+}
+a .police_golf:hover
+{
+	color: black;
+}
+#accrobranche
+{
+	width: 225px;
+	padding: 10px;
+	/*border: 1px black solid;*/
+	float: right;
+	font-size: 13px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+#fast_foods
+{
+	/*border: 1px solid black;*/
+	width: 225px;
+	padding: 10px;
+	float: right;
+	font-size: 13px;
+	margin-top: -20px;
+	margin-right: 50px;
+}
+#activity h2
+{
+	color: #E77927;
+}
+#activity p
+{
+	color: #C4C4C4;
+}
+#activity a
+{
+	color: #BBC2C5;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#activity h5
+{
+	color: #BBC2C5;
+	font-size: 13px;
+	margin-top: -15px;
+	font-weight: normal;
+}
+#commentaires
+{
+	width: 600px;
+	/*border: 1px solid black;*/
+	/*float: right;*/
+	padding: 5px;
+	margin-left: 800px;
+	margin-bottom: 72px;
+	margin-top: 25px;
+}
+#commentaires p
+{
+	font-size: 13px;
+}
+#glob_com
+{
+	margin-left: 100px;
+	font-size: 13px;
+}
+#commentaires ul
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+}
+#commentaires li
+{
+	list-style-type: none;
+	margin-right: 8px;
+	margin-bottom: 13px;
+	padding: 5px;
+	border: 1px solid #D7D4D4;
+	width: 116px;
+	height: 80px;
+}
+#commentaires li:hover
+{
+	background-color: black;
+}
+#commentaires h2
+{
+	color: #E77927;
+	font-size: 21px;
+}
+#commentaires h5
+{
+	color: #BBC2C5;
+	font-size: 13px;
+	margin-top: -15px;
+	font-weight: normal;
+}
+#commentaires p
+{
+	font-size: 14px;
+	color: #C4C4C4;
+}
+#commentaires a
+{
+	color: #BBC2C5;
+	text-decoration: none;
+	font-size: 15px;
+}
+#adresse
+{
+	list-style-image: url(maquette_2/misc/accueil_icone.png);
+	font-size: 14px;
+}
+#suitadd
+{
+	list-style-type: none;
+	padding-bottom: 10px;
+	font-size: 14px;	
+}
+#numero
+{
+	list-style-image: url(maquette_2/misc/telephone_icone.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px; 
+}
+#mail
+{
+	list-style-image: url(maquette_2/misc/mail_icone.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px; 
+}
+#mail a p
+{
+	color: #867F84;
+}
+
+#mailsup
+{
+	list-style-image: url(maquette_2/misc/aide_icone.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px; 
+}
+#mailsup a p
+{
+	color: #867F84;
+}
+#border_form
+{
+	border-top: 2px solid #F9F9F9;
+	padding-top: 10px;
+	border-bottom: 2px solid #F9F9F9;
+	padding-bottom: 10px;
+}
+#menu-bas
+{
+	margin-left: 340px;
+	font-size: 10px;
+}
+#menu-bas a
+{
+	color: #867F84;
+	text-decoration: none;
+}
+#menu-bas li
+{
+	display: inline;
+	color: #867F84;
+	font-weight: bold;
+}
+#menu-bas a:hover
+{
+	color: black;
+}
+#menu-bas p
+{
+	color: #867F84;
+	margin-left: 39px;
+}
+
+#icones li 
+{
+	display: inline;
+}
+#icones 
+{
+	float: right;
+	margin-top: -50px;
+	margin-right: 450px;
+}
+#align_contact
+{
+	width: 100%;
+	background-image: url(maquette_2/misc/grille.png);	
+}
+#cont
+{
+	margin-left: 17%;
+}
+#cont div
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 3%;
+}
+#contact
+{
+	font-size: 14px;
+	color: #848080;
+}
+#contact h2
+{
+	font-size: 19px;
+	padding-left: 15px;
+}
+#contact a
+{
+	color: #848080;
+}
+#contact a:hover
+{
+	color: black;
+}
+#billet
+{
+	font-size: 14px;
+	color: #848080;
+}
+#billet h2
+{
+	font-size: 19px;
+}
+#billet a
+{
+	color: #848080;
+}
+#billet a:hover
+{
+	color: black;
+}
+#dernier_commentaire
+{
+	font-size: 14px;
+	color: #848080;
+}
+#dernier_commentaire h2
+{
+	font-size: 19px;
+}
+#blablaland
+{
+	font-size: 14px;
+	color: #848080;
+}
+#blablaland h2
+{
+	font-size: 19px;
+}	
+#border_contact
+{
+	border-top: 2px solid #F9F9F9;
+	padding-top: 10px;
+	border-bottom: 2px solid #F9F9F9;
+	padding-bottom: 10px;
+}

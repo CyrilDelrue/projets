@@ -1,0 +1,501 @@
+html
+{
+	width: 955px;
+	margin: auto;
+	margin-top: -10px;
+}
+body
+{
+	font-family: Helvetica;
+}
+hr
+{
+	width: 270px;
+	margin-left: 0px;
+	color: black;
+}
+table
+{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	
+	border-top: 2px solid #9A0065;
+	border-collapse: collapse;
+}
+tr
+{
+	color: white;
+	border-bottom: 2px #9A0065 solid;
+}
+td
+{
+	padding: 6px 30px 6px 10px;
+	font-size: 12px;
+	border-bottom: 2px #9A0065 solid;
+}
+
+tr:hover
+{
+	color: #9A0065;
+}
+iframe
+{
+	width: 270px;
+	height: 215px;
+	border: 0px;
+}
+/*________________________________________DEBUT BANNER________________________________________*/
+
+#header
+{
+	background-color: #660033;
+	width: 955px;
+	height: 465px;
+}
+#banner
+{
+	background-color: black;
+	color: white;
+	width: 955px;
+	height: 93px;
+	text-align: right;
+}
+#banner h1
+{
+	text-align: left;
+	padding: 20px 0px 0px 20px;
+}
+#banner p
+{
+	text-align: right;
+	margin-right: 35px;
+	margin-bottom: -10px;
+}
+#banner a
+{
+	text-decoration: none;
+	color: white;
+}
+#banner a:hover
+{
+	color: #cccccc;
+}
+#banner h1
+{
+	font-size: 15px;
+	margin-left: 10px;
+}
+#banner li
+{
+	margin-top: 20px;
+}
+
+/*________________________________________FIN BANNER________________________________________*/
+
+/*________________________________________DEBUT ENTETE B/C/D________________________________________*/
+
+#enteteB
+{
+	color: white;
+	width: 280px;
+}
+#enteteB h2
+{
+	line-height:68px;
+	height: 68px;
+	width: 280px;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: -10px;
+}
+#enteteB ul li
+{
+	list-style-type: none;
+	text-align: left;
+	line-height: 44px;
+	margin-bottom: 8px;
+	margin-left: -40px;
+}
+#enteteB ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+#enteteB a
+{
+	margin-left: 27px;
+	font-weight: bold;
+}
+#enteteB li
+{
+	margin-top: -1.5px;
+}
+#enteteB li:hover
+{
+	background-image: url(hotel/pastille.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: 5px 12px  
+}
+#enteteB li:hover > a {
+	color: white;
+}
+#enteteB a:hover
+{
+	color: white;
+}
+#enteteC
+{
+	position: relative;
+	float: right;
+	width: 67%;
+	padding-right: 35px;
+}
+#enteteD
+{
+	background-color: #660033;
+	background-image: url(hotel/chambre.jpg);
+	background-repeat: no-repeat;
+	background-position: 280px;
+	width: 955px;
+}
+
+/*________________________________________FIN ENTETE B/C/D________________________________________*/
+
+/*________________________________________DEBUT #chambre #restaurant________________________________________*/
+
+#chambre
+{
+	margin-left: 0px;
+	margin: 0px;
+}
+#chambre li
+{
+	background-color: white;
+
+	width: 280px;
+	margin: -40px;
+	font-size: 30px;
+	height: 44px;
+}
+#restaurant
+{
+	margin: 0px;
+
+}
+#restaurant li
+{
+	background-color: white;
+	width: 280px;
+	margin: -40px;
+	font-size: 30px;
+	height: 44px;
+} 
+
+/*________________________________________DEBUT #descriptif________________________________________*/
+
+#descriptif
+{
+	width: 280px;
+	height: 300px;
+	font-size: 12px;
+}
+#descriptif ul
+{
+	list-style-image: url(hotel/triangle.jpg);
+	margin: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+
+}
+#descriptif a
+{
+	text-decoration: none;
+	background-color:  #660033;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+/*________________________________________FIN #descriptif________________________________________*/
+
+/*________________________________________DEBUT #bienvenue / 1________________________________________*/
+
+#bienvenue
+{
+	background-image: url(hotel/bienvenue.jpg);
+	width: 640px;
+	height: 250px;
+	background-color: #CCCCCC;
+	background-repeat: no-repeat;
+	position: relative;
+	left: 280px;
+	top: -340px;
+	background-position: 10px 12px;
+}
+#bienvenue1 h3
+{
+	position: relative;
+	border-bottom: 1px solid black;
+	width: 270px;
+	padding: 10px 0px;
+}
+#bienvenue1
+{
+	width: 290px;
+	height: 200px;
+	position: relative;
+	left: 630px;
+	top: -615px;
+}
+#bienvenue1 a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #660033;
+	font-size: 12px;
+	padding: 5px;
+	margin-left: 190px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: -16px;
+}
+#bienvenue1 p
+{
+	font-size: 12px;	
+}
+
+/*________________________________________FIN #bienvenue / 1________________________________________*/
+
+/*________________________________________DEBUT #Offre / #offre1 / #offre2________________________________________*/
+
+#offre
+{
+	width: 315px;
+	height: 380px;
+	background-color: #660033;
+	position: relative;
+	left: 605px;
+	top: -540px;
+}
+#offre h3 
+{
+	border-bottom: solid black 2px;
+	width: 280px;
+	position: absolute;
+	top: 2px;
+	right: 25px;
+	padding: 2px 0px;
+}
+#offre1
+{
+	margin-left: 2px;
+	margin-top: 10px;
+}
+#offre2
+{
+	margin-left: 2px;
+	margin-top: 40px;
+}
+
+/*________________________________________FIN #Offre / #offre1 / #offre2________________________________________*/
+
+/*________________________________________DEBUT #decouvert________________________________________*/
+
+#decouvert
+{
+	width: 315px;
+	height: 380px;
+	background-color: #CCCCCC;
+	position: relative;
+	left: 280px;
+	top: -937px;
+}
+
+#decouvert h3
+{
+	border-bottom: solid black 2px;
+	position: absolute;
+	width: 280px;
+	top: 18px;
+	left: 10px;
+
+}
+#decouvert h3
+{
+	position: relative;
+	margin-bottom: 50px;
+	padding: 1px 0px;
+}
+
+/*________________________________________FIN #decouvert________________________________________*/
+
+/*________________________________________DEBUT #descripoffre1 / #descripoffre2________________________________________*/
+
+#descripoffre1
+{
+	width: 200px;
+	font-size: 12px;
+	margin-left: 125px;
+	margin-top: -100px;
+}
+#descripoffre1 a
+{
+	text-decoration: none;
+	color:  #660033;
+	padding: 2px;
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+#descripoffre1 h2
+{
+	width: 170px;
+	font-size: 15px;
+}
+#descripoffre2
+{
+	width: 200px;
+	font-size: 12px;
+	margin-left: 140px;
+	margin-top: -100px;
+}
+#descripoffre2 h2
+{
+	width: 170px;
+	font-size: 15px;
+}
+#descripoffre2 a
+{
+	text-decoration: none;
+	color:  #660033;
+	padding: 2px;
+	font-size: 11px;
+	font-weight: bold;	
+}
+
+/*________________________________________FIN #descripoffre1 / #descripoffre2________________________________________*/
+
+/*________________________________________DEBUT #map________________________________________*/
+
+#map
+{
+	position: relative;
+	top: -1268px;
+	width: 260px;
+	height: 290px;
+}
+#map a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #660033;
+	font-size: 12px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 160px;
+	position: absolute;
+	width: 100px;
+	font-weight: bold;
+}
+
+/*________________________________________FIN #map________________________________________*/
+
+/*________________________________________DEBUT #glob1 / #glob2________________________________________*/
+
+#glob1
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px 0px 10px 0px;
+		width: 300px;
+	margin:auto;
+}
+
+#glob2
+{
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	width: 300px;
+	margin:auto;
+}
+
+/*________________________________________FIN #glob1 / #glob2________________________________________*/
+
+/*________________________________________DEBUT #buttomoffre________________________________________*/
+
+#buttomoffre a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #660033;
+	font-size: 12px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: 220px;
+	position: absolute;
+	font-weight: bold;
+}
+
+/*________________________________________FIN #buttomoffre________________________________________*/
+
+/*________________________________________DEBUT #footer________________________________________*/
+
+#footer
+{
+	height: 45px;
+	background-color: black;
+	color: #cccccc;
+	font-size: 12px;
+	padding-left: 2px;
+	margin-top: -1240px;
+}
+#footer a
+{
+	text-decoration: none;
+	color: #cccccc;
+}
+#footer p
+{
+	text-align: center;
+	padding: 15px;
+}
+#footer a:hover
+{
+	color: white;
+}
+
+/*________________________________________FIN #footer________________________________________*/
+
+/*________________________________________DEBUT .class________________________________________*/
+
+.button
+{
+	list-style: none;
+	position: absolute;
+	right: 10px;
+	bottom: -40px;
+}
+.maj_vio
+{
+	font-weight: bold;
+	color: #660033;
+}
+.violet
+{
+	color: #660033;
+}
+.maj
+{
+	font-weight: bold;
+}
+.white
+{
+	color: white;
+}
+
+/*________________________________________FIN .class________________________________________*/
+
+

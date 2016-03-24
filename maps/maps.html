@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>MY MAPS</title>
+  <link rel="stylesheet" href="style.css" type="text/css" /> 
+
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+  <script type="text/javascript" src="js_func.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+
+<script>
+function vaEtVient(){
+    if(document.getElementById('invisible').style.display == 'none'){
+      document.getElementById('invisible').style.display = 'block';
+      }
+      else {
+      document.getElementById('invisible').style.display = 'none';
+    }
+}
+</script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="back">
+    <a href='javascript: vaEtVient()' id="lien">Affiches-moi</a>
+    <div style='display:none;' id='invisible'>
+      <ul id=menu>
+        <h1>My Holidays Maps</h1>
+        <li> <form action="" method="get" name="direction" id="direction">
+          <label>Départ :</label><br />
+          <input type="text" name="origin" id="origin"><br />
+          <label>Arrivée :</label><br />
+          <input type="text" name="destination" id="destination"><br />
+ 
+
+          <input type="button" value="GO" onclick="javascript:calculate()">
+        </form></ul>
+      </ul>
+      </div>
+      <div id="geolocation_map"></div>
+
+    </div>
+    <button onclick="javascript:enterFullscreen(full_screen_part);">← →</button>
+    <div id="full_screen_part" name="full_screen_part"></div>
+    <div id="panel"></div>
+  </div>
+</body>
+
+
+</html>
+
+
+
+
+
+

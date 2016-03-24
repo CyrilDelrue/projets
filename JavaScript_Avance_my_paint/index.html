@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My paint</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My_Paint</h1>
+  </header>
+  <div id="outils">
+    <div id="drawingTools">
+      <div id="colors">
+        <button class="carre" id="black" onclick="changeColor('black')"></button>
+        <button class="carre" id="white" onclick="changeColor('white')"></button>
+        <button class="carre" id="red" onclick="changeColor('red')"></button>
+        <button class="carre" id="green" onclick="changeColor('green')"></button>
+        <button class="carre" id="blue" onclick="changeColor('blue')"></button>
+
+
+        <button class="carre" id="clearCanvas" onclick="clearCanvas()">C</button>
+        <button class="carre" id="brushSize1" onclick="changeBrushSize(1)">1</button>
+        <button class="carre" id="brushSize2" onclick="changeBrushSize(5)">2</button>
+        <button class="carre" id="brushSize3" onclick="changeBrushSize(10)">3</button>
+        <button class="carre" id="brushSize4" onclick="changeBrushSize(15)">4</button>
+        <button class="carre" id="fillCanvas" onclick="fillCanvas()">F</button>
+        <button class="carre" id="squareBrush" onclick="changeBrushStyle('square')">Square</button>
+        <button class="carre" id="roundBrush" onclick="changeBrushStyle('round')">Round</button>
+        <button class="carre" id="openFile" onclick="triggerClick()">Open</button>
+      </div>
+    </div>
+  </div>
+  <div>  
+    <canvas id="canvas" width="1859" height="700"></canvas>
+    <div id="cache">
+      <input id="file" type="file">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </div>
+  <footer>
+    <h2>Site créé par Cyril DELRUE</h2>
+  </footer>
+</body>
+</html>
+
