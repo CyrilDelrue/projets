@@ -1,6 +1,6 @@
 "Mes projets" 
 
-HTML_CSS_Maquette_1 - Intégration d'une maquette
+HTML_CSS_Maquette_1 - Intégration d'une maquette</br>
 HTML_CSS_Maquette_2 - Intégration d'une maquette
 JavaScript_Avance_my_paint - Création d'un paint en JS
 My_weblog - Création d'un Blog (en groupe)
