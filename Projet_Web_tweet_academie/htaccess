@@ -1,0 +1,6 @@
+DirectorySlash Off
+RewriteEngine On
+RewriteBase /Projet_Web_tweet_academie/
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_URI} !^/Projet_Web_tweet_academie/(static/.+|index\.php|robots\.txt)$
+RewriteRule ^ index.php [QSA,L]

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Projet_Web_tweet_academie/static/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Projet_Web_tweet_academie/static/js/script_2.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/Projet_Web_tweet_academie/tweet/show">Tweet Academie</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Projet_Web_tweet_academie/default/connexion">Connexion/Inscription</a></li>
+                    <li class="active"><a href="/Projet_Web_tweet_academie/profil/user">Profil</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Compte<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/Projet_Web_tweet_academie/admin/profil">Editer votre profil</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/Projet_Web_tweet_academie/admin/deco">Deconnexion</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="profile-container">
+                <div class="profile-header row">
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <img class="img" src="{{ img }}" alt="photo"/>
+                    </div>
+                    <div class="col-md-8 col-sm-12 profile-info">
+                        <div class="header-fullname">{{ pseudo }}</div>
+                        <form method="post" action="../../profil/following">
+                            <input type="hidden" name="id" id="id" value="{{ id }}">
+                            <input type="hidden" name="pseudo" value="{{ pseudo }}">
+                            <input type="submit" value="Following" class="btn btn-palegreen btn-sm  btn-follow">
+                        </form>
+                        <div class="header-information">
+                          {{ description }}
+                      </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-xs-12 profile-stats">
+                    <div class="row">
+                        <div id="following" class="col-md-4 col-sm-4 col-xs-12 stats-col">
+                            <div class="stats-value pink">{{ following }}</div>
+                            <div class="stats-title">FOLLOWING</div>
+                        </div>
+                        <div id="followers" class="col-md-4 col-sm-4 col-xs-12 stats-col">
+                            <div class="stats-value pink">{{ followers }}</div>
+                            <div class="stats-title">FOLLOWERS</div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 stats-col">
+                            <div class="stats-value pink">{{ nbr_tweet }}</div>
+                            <div class="stats-title">POSTS</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-4 inlinestats-col">
+                            <i class="glyphicon glyphicon-map-marker"></i> {{ location }}
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>
+</body>
+</html>

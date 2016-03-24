@@ -1,0 +1,6 @@
+Options +MultiViews
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RedirectMatch permanent ^/detail/((css|js)/.*)  /$1
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
